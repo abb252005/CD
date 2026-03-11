@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>turtle_drawer</name>
+  <version>0.0.0</version>
+  <description>The turtle_drawer package</description>
+  <maintainer email="abbos2005@todo.todo">abbos2005</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>rospy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>turtlesim</depend>
+  <depend>std_msgs</depend>
+
+  <export>
+  </export>
+</package>
