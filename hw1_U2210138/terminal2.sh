@@ -1,1 +1,0 @@
-QT_QPA_PLATFORM=xcb rosrun turtlesim turtlesim_node
