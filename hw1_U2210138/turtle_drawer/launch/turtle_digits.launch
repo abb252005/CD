@@ -1,0 +1,15 @@
+<launch>
+
+    <!-- Start turtlesim -->
+    <node pkg="turtlesim"
+          type="turtlesim_node"
+          name="turtlesim"
+          output="screen"/>
+
+    <!-- Run the digit drawing script -->
+    <node pkg="turtle_drawer"
+          type="hw1_U2210138.py"
+          name="digit_drawer"
+          output="screen"/>
+
+</launch>
